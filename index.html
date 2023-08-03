@@ -19,59 +19,37 @@
 
     <link
       rel="shortcut icon"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAC4jAAAuIwF4pT92AAAE7mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4wLWMwMDAgNzkuMTcxYzI3ZiwgMjAyMi8wOC8xNi0xODowMjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjEgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNi0yNlQwOTo0Nzo1OCswNjowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjMtMDYtMjZUMDk6NTM6MzArMDY6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjMtMDYtMjZUMDk6NTM6MzArMDY6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk3NmUzODNiLTRkNzMtNjA0NC04ZDliLTczNWFmM2MyZjk5MyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5NzZlMzgzYi00ZDczLTYwNDQtOGQ5Yi03MzVhZjNjMmY5OTMiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5NzZlMzgzYi00ZDczLTYwNDQtOGQ5Yi03MzVhZjNjMmY5OTMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjk3NmUzODNiLTRkNzMtNjA0NC04ZDliLTczNWFmM2MyZjk5MyIgc3RFdnQ6d2hlbj0iMjAyMy0wNi0yNlQwOTo0Nzo1OCswNjowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjEgKFdpbmRvd3MpIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpCFhxwAAAKYSURBVDiNddM9aJ1lGMbx/3W/7zk9SZQssUq1YD8U7VBR65JWsihYLdhQsggu0S5+DUJ1qFJc/JpqcXQo4gdIFRxUkqroIihEF0sXrUUd2kWK8eQ9Oed57svFwYL+5j/Xdun9w2MwTPpmcyBGA7E5BaOB9nfT6o2muGHYbO4ZRvfdMLocxsZXo2a8MdQmY8YEV7tO9k7DA5bOIC5U+eMk95ocJdklfiNJTBLEVQM3yTxn6YClWzO8UBu9gvStycOFPGLxNuLMmHK6UuerkhZAQCRXMljNhk+B3y2fcug2k72UsbxmvKWSq8BDVbn7r2bjt2iKieq7Qe8ZfrY4VVsOZmgBeLpSb6/kcWBXpS6n8iPE1qrcknC6bSem9PR8bdhB0GVwojYMHHHeAstNksdNTgHvGH9i/AxwwsqvW5kDyK/VVmulkWU6JTsdfIM4D6TlbYn3VeW5xH8U6ltF5UnjpVYwVxstASsWaxafOXzJ8v6xKmMmBw2HqvLZorLD8gXjk4b1JBcig88z9IjsBO+b9PRiaeNDFL+mPJvyo8ZPAF+Eo6tkh7hF8FLCdAtaNJ6b9HR9hi4DDwL31GB7S7tLZrmqdsCXSV6q5LZwXOlnS22yax2+0Y32ZjBvsVX2BuJmy4tF5fskrwUe29SYSZSXkeeLylNB8+NsnSFq6HWLs5HMOFBpdTFDxyyvjDWZS/lPi3XDNHAs8UJR3lFJZuqANoM9huXacC5DJ91wNkOvOnQ0iPtSplKvaVAaHzK+M6x3hUiZdtJn6JAdOgJ+GOsFy4tC/ZQvJvUuYF1oBFoBVv59nsjgl9pw2TCbwVIG92cwj/lgUHoE8YPxT/yPkAFYLT3ezNC9GWzP4PESuXtQWwa1T/4T/Ze/AXubgo6fb+5vAAAAAElFTkSuQmCC"
+      href="./src/assets/images/favicon.png"
       type="image/x-icon"
     />
 
     <title>TheFundedHub</title>
-    <script type="module" crossorigin src="/assets/index-c6a6a740.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/@babel-9fdae976.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-b137ca31.js">
+    <script type="module" crossorigin src="/assets/index-7e97d514.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/scheduler-765c72db.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-dom-2f014098.js">
-    <link rel="modulepreload" crossorigin href="/assets/@remix-run-5d90a9b5.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-router-b1006d9f.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-router-dom-2f32037d.js">
-    <link rel="modulepreload" crossorigin href="/assets/ssr-window-c9202916.js">
-    <link rel="modulepreload" crossorigin href="/assets/swiper-4224f36b.js">
-    <link rel="modulepreload" crossorigin href="/assets/framer-motion-83825b92.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-icons-ab430f1b.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-ts-tradingview-widgets-ba82c406.js">
-    <link rel="modulepreload" crossorigin href="/assets/country-state-city-7cb9a309.js">
-    <link rel="modulepreload" crossorigin href="/assets/apexcharts-e36be5ba.js">
-    <link rel="modulepreload" crossorigin href="/assets/prop-types-e2ee29f5.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-apexcharts-bf2c79c6.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-dom-d8f4784f.js">
+    <link rel="modulepreload" crossorigin href="/assets/@babel-5d790daf.js">
     <link rel="modulepreload" crossorigin href="/assets/clsx-1229b3e0.js">
     <link rel="modulepreload" crossorigin href="/assets/react-is-e8e5dbb3.js">
     <link rel="modulepreload" crossorigin href="/assets/hoist-non-react-statics-23d96a9a.js">
     <link rel="modulepreload" crossorigin href="/assets/stylis-79144faa.js">
-    <link rel="modulepreload" crossorigin href="/assets/@emotion-3de86e8b.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-transition-group-8d972c48.js">
-    <link rel="modulepreload" crossorigin href="/assets/@mui-420ebcf5.js">
-    <link rel="modulepreload" crossorigin href="/assets/classnames-f6dc54bb.js">
-    <link rel="modulepreload" crossorigin href="/assets/lodash-330e1311.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-resize-detector-c2555cf5.js">
-    <link rel="modulepreload" crossorigin href="/assets/fast-equals-a0711cdd.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-smooth-a2f2c3ea.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-path-41c4cb36.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-shape-ca4806c9.js">
-    <link rel="modulepreload" crossorigin href="/assets/css-unit-converter-9e08bb2c.js">
-    <link rel="modulepreload" crossorigin href="/assets/reduce-css-calc-b7179dd0.js">
-    <link rel="modulepreload" crossorigin href="/assets/internmap-7949acc8.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-array-7d9b19f9.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-time-9ce187c0.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-time-format-aa787c71.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-color-6502c434.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-interpolate-8fa1f6ff.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-format-ffdb8652.js">
-    <link rel="modulepreload" crossorigin href="/assets/d3-scale-4cce9527.js">
-    <link rel="modulepreload" crossorigin href="/assets/victory-vendor-5e3e398c.js">
-    <link rel="modulepreload" crossorigin href="/assets/decimal.js-light-6fe16ef2.js">
-    <link rel="modulepreload" crossorigin href="/assets/recharts-scale-170b47f7.js">
-    <link rel="modulepreload" crossorigin href="/assets/eventemitter3-4eae6383.js">
-    <link rel="modulepreload" crossorigin href="/assets/recharts-4431bb2f.js">
+    <link rel="modulepreload" crossorigin href="/assets/@emotion-a036c572.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-transition-group-b3c074e3.js">
+    <link rel="modulepreload" crossorigin href="/assets/@mui-a514fe54.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-b31b5036.js">
+    <link rel="modulepreload" crossorigin href="/assets/@remix-run-5d90a9b5.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-router-96374558.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-router-dom-352e4a7d.js">
+    <link rel="modulepreload" crossorigin href="/assets/ssr-window-c9202916.js">
+    <link rel="modulepreload" crossorigin href="/assets/swiper-3a6fcdc2.js">
+    <link rel="modulepreload" crossorigin href="/assets/framer-motion-397c7d06.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-icons-fb42b3da.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-ts-tradingview-widgets-ceab700e.js">
+    <link rel="modulepreload" crossorigin href="/assets/country-state-city-7cb9a309.js">
+    <link rel="modulepreload" crossorigin href="/assets/apexcharts-e36be5ba.js">
+    <link rel="modulepreload" crossorigin href="/assets/prop-types-387d7a00.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-apexcharts-a731f305.js">
     <link rel="stylesheet" href="/assets/swiper-bcfe3ab7.css">
-    <link rel="stylesheet" href="/assets/index-1af4d8b1.css">
+    <link rel="stylesheet" href="/assets/index-5be0e7ce.css">
   </head>
 
   <body>
